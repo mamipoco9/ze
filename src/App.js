@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Info from './components/Info';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1>em abcd efu</h1>
+      <Info a='b' b='c' c='d' name="ng vad a" age="lv3" phone="9998877000" />
+      <Info a='b' b='c' c='d' name="le v bb" age="99" phone="0988555555"/>
+      
     </div>
   );
 }
